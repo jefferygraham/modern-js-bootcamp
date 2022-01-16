@@ -1,13 +1,13 @@
-function grumpus() {
-  console.log('Ugh...you again?!');
-  console.log('For the last time...');
-  console.log('LEAVE ME ALONE!!!');
+function rollDie() {
+  let roll = Math.floor(Math.random() * 6) + 1;
+  console.log('Rolled:', roll);
 }
 
-grumpus();
-grumpus();
-grumpus();
-
-for (let i = 0; i < 50; i++) {
-  grumpus();
+function throwDice() {
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
+  rollDie();
 }
