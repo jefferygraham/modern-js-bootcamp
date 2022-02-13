@@ -1,0 +1,14 @@
+h1 {
+  color: purple;
+  font-size: 60px;
+}
+
+#placeholder {
+  width: 200px;
+}
+
+.special {
+  color: teal;
+  font-size: 30px;
+  border: 1px solid teal;
+}
